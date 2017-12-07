@@ -1,6 +1,6 @@
-#sonarqube
+# sonarqube
 
-#service run 
+# service run 
 xxxx is variable. input to fit your environment. 
 ```
 docker run -it -d --name sonarqube 
@@ -12,7 +12,7 @@ sonarqube:lts
 
 ```
 
-#in case of our campnay - groobee sonarqube in cow server.
+# in case of our campnay - groobee sonarqube in cow server.
 ```
 docker run -it -d --name sonarqube 
 -p 9000:9000 
